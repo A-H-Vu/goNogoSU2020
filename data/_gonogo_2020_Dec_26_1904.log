@@ -1,0 +1,54 @@
+2.2630 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+10.3808 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001BC39CE78D0>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001BC39DD9198>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+10.3809 	EXP 	window1: recordFrameIntervals = False
+10.5467 	EXP 	window1: recordFrameIntervals = True
+10.7306 	EXP 	window1: recordFrameIntervals = False
+11.3303 	EXP 	Created instrText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instrText', opacity=1.0, ori=0, pos=array([-0.3,  0. ]), rgb=array([255., 255., 255.]), text='Space', units='height', win=Window(...), wrapWidth=1)
+11.3416 	EXP 	Created instrImg = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='gonogo.png', interpolate=True, mask=None, maskParams=None, name='instrImg', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), size=array([0.6, 1. ]), texRes=128, units='height', win=Window(...))
+11.3573 	EXP 	Created trialCircle = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-1.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1, name='trialCircle', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...))
+11.3590 	EXP 	Created trialText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='trialText', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='', units='height', win=Window(...), wrapWidth=1)
+11.3596 	EXP 	Created trialCount = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trialCount', opacity=1.0, ori=0, pos=array([-0.4,  0.4]), rgb=array([255., 255., 255.]), text='', units='height', win=Window(...), wrapWidth=1)
+11.3838 	EXP 	Created endText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='endText', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.4075 	EXP 	Created sequence: sequential, trialTypes=1, nReps=3, seed=None
+11.4077 	EXP 	New trial (rep=0, index=0): None
+11.5434 	EXP 	instrText: text = "For this task, please press 'space' when you see the blue circle, and press nothing for orange. There are 300 total trials split into 3 trial blocks with 100 trials each. Press 's' to start."
+11.5434 	EXP 	instrText: autoDraw = True
+11.5434 	EXP 	instrImg: autoDraw = True
+13.6835 	EXP 	Created sequence: sequential, trialTypes=1, nReps=100, seed=None
+13.6851 	EXP 	New trial (rep=0, index=0): None
+13.7181 	DATA 	Keypress: s
+13.7356 	EXP 	instrText: autoDraw = False
+13.7356 	EXP 	instrImg: autoDraw = False
+13.7356 	EXP 	trialText: text = 'GO'
+13.7356 	EXP 	trialCount: text = '1 / 100'
+13.7356 	EXP 	trialCircle: fillColor = '[-1. -1.  1.] (rgb)'
+13.7356 	EXP 	trialCircle: lineColor = '[-1. -1.  1.] (rgb)'
+13.7356 	EXP 	trialCount: autoDraw = True
+14.0011 	EXP 	trialCircle: autoDraw = True
+14.0011 	EXP 	trialText: autoDraw = True
+14.8265 	DATA 	Keypress: space
+14.8543 	EXP 	New trial (rep=1, index=0): None
+14.8717 	EXP 	trialCircle: autoDraw = False
+14.8717 	EXP 	trialText: autoDraw = False
+14.8717 	EXP 	trialCount: autoDraw = False
+14.8717 	EXP 	trialText: text = 'GO'
+14.8717 	EXP 	trialCount: text = '2 / 100'
+14.8717 	EXP 	trialCircle: fillColor = '[-1. -1.  1.] (rgb)'
+14.8717 	EXP 	trialCircle: lineColor = '[-1. -1.  1.] (rgb)'
+14.8717 	EXP 	trialCount: autoDraw = True
+15.1205 	EXP 	trialCircle: autoDraw = True
+15.1205 	EXP 	trialText: autoDraw = True
+15.5695 	EXP 	New trial (rep=2, index=0): None
+15.5779 	DATA 	Keypress: space
+15.5917 	EXP 	trialCircle: autoDraw = False
+15.5917 	EXP 	trialText: autoDraw = False
+15.5917 	EXP 	trialCount: autoDraw = False
+15.5917 	EXP 	trialText: text = 'GO'
+15.5917 	EXP 	trialCount: text = '3 / 100'
+15.5917 	EXP 	trialCircle: fillColor = '[-1. -1.  1.] (rgb)'
+15.5917 	EXP 	trialCircle: lineColor = '[-1. -1.  1.] (rgb)'
+15.5917 	EXP 	trialCount: autoDraw = True
+15.8254 	EXP 	trialCircle: autoDraw = True
+15.8254 	EXP 	trialText: autoDraw = True
+16.0986 	DATA 	Keypress: escape
+16.3334 	EXP 	window1: mouseVisible = True
